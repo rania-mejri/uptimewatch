@@ -9,3 +9,4 @@ __pycache__/
 *.tfstate.*
 .terraform/
 terraform.tfvars
+.vscode/
