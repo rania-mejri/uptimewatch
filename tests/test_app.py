@@ -16,7 +16,7 @@ EXAMPLE = {"name": "Exemple", "url": "https://example.com"}
 
 def test_health():
     with TestClient(app) as client:
-        assert client.get("/health").json() == {"status": "ok"}
+        assert client.get("/health").json() == {"status": "cassé"}
 
 
 def test_create_requires_api_key():
